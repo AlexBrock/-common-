@@ -1,0 +1,31 @@
+// sass-lint:disable quotes
+// ITCSS https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+
+// *-* settings *-*
+//		> Variables for colors, spacing, fonts etc.
+@import 'settings/settings';
+
+// *-* tools *-*
+//		> Mixins and functions
+@import 'tools/tools';
+
+// *-* generic *-*
+//	 	> Resets, box-sizing, initial font declaration etc
+@import 'generic/generic';
+
+// *-* elements *-*
+// 		> Defaults for things like buttons and lists which are branded to the site
+@import 'elements/elements';
+
+// *-* objects *-*
+//		> Objects such as cards, containers or media items - things that will be re-used often
+@import 'objects/objects';
+
+// *-* components *-*
+//		> Specific components that don't fit into an object, like nav and layouts
+//		> Most work will be stored here when not being reused in multiple places
+@import 'components/components';
+
+// *-* utilities *-*
+//		> Overrides and helper classes !important is ok here and often needed
+@import 'utilities/utilities';
